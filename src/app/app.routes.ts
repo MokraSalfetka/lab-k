@@ -4,6 +4,7 @@ import {Details} from './details/details';
 import {List} from './list/list';
 import {AddPerson} from './add-person/add-person';
 import { FormsModule } from '@angular/forms';
+//dawawd
 
 export const routes: Routes = [
   {path: "list", component: List},
