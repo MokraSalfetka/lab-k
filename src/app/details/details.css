@@ -1,0 +1,22 @@
+.details-container {
+  padding: 20px;
+}
+
+.person {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 6px;
+  background: white;
+}
+
+.info, .address {
+  margin-top: 20px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 10px;
+}

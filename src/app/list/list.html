@@ -1,0 +1,10 @@
+<ul>
+  @for (person of people; track i; let i = $index) {
+    <li>
+      <a [routerLink]="['/details', i]">
+        {{ person.firstName }} {{ person.lastName }} ({{ i }})
+      </a>
+      <button class="delete" (click)="delete(i)">remove</button>
+    </li>
+  }
+</ul>
